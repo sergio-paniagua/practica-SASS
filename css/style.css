@@ -17,6 +17,8 @@ header {
     box-shadow: none;
     text-decoration: none;
     color: black; }
+    header a:hover {
+      color: green; }
   header button:hover {
     background-color: rgba(253, 253, 253, 0.8); }
   header .logoNom {

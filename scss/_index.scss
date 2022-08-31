@@ -21,7 +21,9 @@
             box-shadow: none;
             text-decoration: none;
             color: black;
-
+            &:hover{
+                color: green;
+            }
         }
 
         button:hover{
