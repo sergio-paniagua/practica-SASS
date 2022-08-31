@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+
+   header{
+    width: 100vw;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+        ul{
+            list-style: none;
+        }
+
+        a{
+            box-shadow: none;
+            text-decoration: none;
+            color: black;
+
+        }
+
+        button:hover{
+            background-color: rgba(253, 253, 253, 0.8)
+        }
+
+        .logoNom{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .navBar{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+
+                .listNav{
+                    margin: 10px;
+                }
+        }
+   }
+
+   footer{
+    background-color: aliceblue;
+    width: 100vw;
+
+        .imgF{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 4px;
+
+            .aImgLn{
+                width: 3%;
+            }
+
+            .aImgF{
+                width: 3%;
+            
+            }
+            .imgFace{
+                width: 100%;
+            }
+             
+            .imgLn{
+                width: 100%;
+            }
+        
+        }
+        .direccion{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 4px;}
+        .derechosF{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 4px;}
+   }
+
+   main{
+    .titulo{
+        display: flex;
+        justify-content: space-around;
+
+    h2{
+        animation-name: efectoTitulo;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes efectoTitulo {
+         0%{
+            color: rgb(6, 57, 30);
+        }
+            
+        50%{ 
+            color: rgb(36, 59, 13);
+        }
+        100%{
+            color: rgb(94, 128, 40);
+        }
+        }
+    }
+
+    .cardIndex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .btn-primary{
+            background-color: darkolivegreen;
+            border: solid black;
+        }
+        .btn-primary:hover{
+            background-color:black;
+        }
+    }
+   }
+

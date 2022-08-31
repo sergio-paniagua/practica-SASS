@@ -1,0 +1,23 @@
+@media (max-width: 785px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .logoNom{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:750px){
+
+    main{
+        .cardIndex{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: space-evenly;
+        }
+    }
+
+}
